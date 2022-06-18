@@ -9,4 +9,12 @@ module.exports = {
     "@vue/eslint-config-typescript/recommended",
     "@vue/eslint-config-prettier",
   ],
+  overrides: [
+    {
+      files: ["*.config.js"],
+      env: {
+        node: true,
+      },
+    },
+  ],
 };

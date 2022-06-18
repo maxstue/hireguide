@@ -20,6 +20,10 @@ Comming soon
 Comming soon
 ```
 
+## Update packages
+
+`pnpm update --interactive [--recursive] [--latest] [--prod] [--dev]`
+
 ## Author
 
 👤 **Maximilian Stümpfl**
