@@ -9,5 +9,5 @@ public static class ServiceExtension
         services.AddCustomOptions(configuration)
             .AddCustomGraphQl(configuration);
         return services;
-    } 
+    }
 }
