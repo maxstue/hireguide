@@ -4,3 +4,11 @@ node_modules/
 
 # pnpm
 .pnpm-debug.log
+
+# jetbrains
+.idea
+
+# dotnet
+obj
+bin
+/packages/api/hireguide.sln.DotSettings.user
