@@ -1,0 +1,23 @@
+version: '3.9'
+
+services:
+  database:
+    restart: "no"
+    container_name: PostgreSQL
+    build:
+      context: ./packages/postgresql
+      dockerfile: Dockerfile
+    ports:
+      - "5432:5432"
+    volumes:
+      - database-data:/var/lib/postgresql/data
+#  smartHub:
+#    image: ${DOCKER_REGISTRY-}webui
+#    build:
+#      context: .
+#      dockerfile: src/WebUI/Dockerfile
+#    depends_on:
+#       - postgres_database
+
+volumes:
+  database-data:
